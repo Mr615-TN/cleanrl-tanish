@@ -54,7 +54,7 @@ def parse_args():
         help="the return lower bound")
     parser.add_argument("--v-max", type=float, default=100,
         help="the return upper bound")
-    parser.add_argument("--buffer-size", type=int, default=10000,
+    parser.add_argument("--buffer-size", type=int, default=100,
         help="the replay memory buffer size")
     parser.add_argument("--gamma", type=float, default=0.99,
         help="the discount factor gamma")
